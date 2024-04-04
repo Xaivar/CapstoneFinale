@@ -9,6 +9,7 @@ import  Dashboard  from './pages/Dashboard.jsx';
 import  Blog  from './pages/Blog.jsx';
 import  Esami  from './pages/Esami.jsx';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Profilo  from './pages/Profilo.jsx';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
     <Route path="/dashboard" element={<Dashboard />} />
     <Route path="/esami" element={<Esami />} />
     <Route path="/blog" element={<Blog />} />
+    <Route path="/profilo" element={<Profilo />} />
   </Routes>
 
 </BrowserRouter>

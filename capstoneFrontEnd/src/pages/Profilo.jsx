@@ -1,10 +1,12 @@
 import React from 'react'
 import Navbar from '../components/navbar'
-
-export default function Esami() {
+export default function Profilo() {
   return (
+
     <>
     <Navbar/>
-    <div>Esami</div></>
+    <div>Profilo</div>
+    
+    </>
   )
 }

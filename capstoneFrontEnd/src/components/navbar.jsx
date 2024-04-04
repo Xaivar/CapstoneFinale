@@ -18,9 +18,9 @@ export default function navbar() {
           style={{ maxHeight: '100px' }}
           navbarScroll
         >
-          <Nav.Link href="#action1">Home</Nav.Link>
-          <Nav.Link href="#action2">Link</Nav.Link>
-          <NavDropdown title="Link" id="navbarScrollingDropdown">
+          <Nav.Link href="/dashboard">Home</Nav.Link>
+          <Nav.Link href="/esami">Esami</Nav.Link>
+          <NavDropdown title="Account" id="navbarScrollingDropdown">
             <NavDropdown.Item href="#action4">
               Profilo
             </NavDropdown.Item>

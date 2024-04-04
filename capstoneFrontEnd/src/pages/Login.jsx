@@ -21,10 +21,13 @@ export default function Login() {
         setValidated(true);
     };
 
-
+            // Da aggiungere la logica del login (grafica da migliorare ma complessivamente completata)
 
     return (
         <Container className='d-flex justify-content-between' fluid>
+
+            {/* Parte di sinistra [dov'è il form di registrazione] */}
+
             <Col as={Col} md="6" className='mt-5 ms-5'>
                 <img src={Img} alt="Logo" className="mt-5" style={{ marginLeft: "8rem" }} />
                 <Form noValidate validated={validated} onSubmit={handleSubmit}>
@@ -53,11 +56,14 @@ export default function Login() {
                         </Form.Group>
                     </Row>
                     <Row as={Col} md="4" className="mt-5 ms-5">
-                        <Button type="submit" className="me-1" style={{ backgroundColor: '#9913D9' }}>Accedi</Button>
-                        <Button style={{ backgroundColor: '#9913D9' }}>Registrati</Button>
+                        <Button type="submit" className="me-1 AccediLogin" style={{ backgroundColor: '#9913D9', border: 'none' }}>Accedi</Button>
+                        <Button className="RegistratiLogin"style={{ backgroundColor: '#9913D9', border: 'none' }} href='/register'>Registrati</Button>
                     </Row >
 
                 </Form>
+
+                {/* Parte di destra [Dove va l'immagine] */}
+
             </Col>
 
             <Col as={Col} md="5" className='ImmagineLaterale'>
