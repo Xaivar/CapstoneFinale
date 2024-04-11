@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\IndirizziStudioController;
 use App\Http\Controllers\ItemController;
+use App\Http\Controllers\NewsController;
 use App\Http\Controllers\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -22,3 +24,5 @@ Route::middleware(['auth:sanctum'])->get('/user', function (Request $request) {
 
 Route::get('/items', [ItemController::class, 'index']);
 Route::get('/user', [UserController::class, 'index']);
+Route::get('/news', [NewsController::class, 'index']);
+Route::get('/indirizziStudio', [IndirizziStudioController::class, 'index']);

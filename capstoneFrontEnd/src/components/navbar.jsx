@@ -20,12 +20,13 @@ export default function navbar() {
         >
           <Nav.Link href="/dashboard">Home</Nav.Link>
           <Nav.Link href="/esami">Esami</Nav.Link>
+          <Nav.Link href="/blog">Blog</Nav.Link>
           <NavDropdown title="Account" id="navbarScrollingDropdown">
-            <NavDropdown.Item href="#action4">
+            <NavDropdown.Item href="/profilo" style={{ color: '#3D0955' }}>
               Profilo
             </NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="#action5">
+            <NavDropdown.Item href="/login" style={{ color: '#3D0955' }}>
               Log-out
             </NavDropdown.Item>
           </NavDropdown>

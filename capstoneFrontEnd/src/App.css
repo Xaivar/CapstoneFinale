@@ -39,8 +39,132 @@
 
 /* CSS pagina Dashboard */
 
-.imgIndirizzi {
-  width: 40px;
-  height: 40px;
+
+.indirizziStudio {
+  border-radius: 10%;
+  min-width: 10dvh;
+  padding: 0.5rem;
+} 
+
+.iconaCorso {
+  border: 1px solid #3D0955;
+  padding: 0.5rem 0.7rem;
+  border-radius: 5rem;
+  margin-bottom: 0.5rem;
+} 
+
+.indirizziStudio:hover .iconaCorso{
+  cursor: pointer;
+  border: 1px solid #9913D9;
 }
 
+.indirizziStudio:hover .pCorso, .indirizziStudio:hover i {
+  cursor: pointer;
+  color: #9913D9;
+}
+
+
+
+/* CSS pagina Esami */
+
+.aggiungi_esame {
+  background-color: #ffffff;
+  color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  /* border: 1px solid black; */
+  box-shadow: 0 0 7px 0 black;
+  width: 38rem;
+}
+
+.calendario_esami {
+  background-color: #ffffff;
+  color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  /* border: 1px solid black; */
+  box-shadow: 0 0 7px 0 black;
+  width: 38rem;
+}
+
+.btn_aggiungi_esame {
+  border: 1px solid #9913D9;
+  background-color: #9913D9;
+  color: white;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+.parte_destra {
+  background-color: #ffffff;
+  color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  /* border: 1px solid black; */
+  box-shadow: 0 0 7px 0 black;
+  width: 38rem;
+}
+
+/* CSS Pagina Profilo */
+
+.profilo_centrale {
+  background-color: #ffffff;
+  color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  /* border: 1px solid black; */
+  box-shadow: 0 0 7px 0 black;
+  width: 38rem;
+  height: 40rem;
+}
+
+/* CSS pagina Blog */
+
+.sinistra_blog {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 1rem;
+  /* border: 1px solid black; */
+  box-shadow: 0 0 7px 0 black;
+  width: 35rem;
+  margin: 1rem;
+}
+
+.centrale_blog {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 1rem;
+  /* border: 1px solid black; */
+  box-shadow: 0 0 7px 0 black;
+  width: 40rem;
+  margin: 1rem;
+}
+
+.destra_blog {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 1rem;
+  /* border: 1px solid black; */
+  box-shadow: 0 0 7px 0 black;
+  width: 35rem;
+  margin: 1rem;
+}
+
+.text_area_centrale {
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  width: 35rem;
+  height: 3rem;
+}
+
+.evento_blog {
+  border: none;
+  border-radius: 10px;
+}
+
+.pubblica_blog {
+  border:none;
+  border-radius: 10px;
+  
+}

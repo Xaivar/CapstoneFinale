@@ -33,22 +33,22 @@ export default function Register() {
           <Form noValidate validated={validated} onSubmit={handleSubmit}>
 
             <Form.Group as={Col} md="6" controlId="validationCustom01">
-              <Form.Label className='mt-3 fs-4'>First name</Form.Label>
+              <Form.Label className='mt-3 fs-4'>Nome e Cognome</Form.Label>
               <Form.Control
                 required
                 type="text"
-                placeholder="First name"
-                defaultValue="Mark"
+                placeholder="Inserisci il nome ed il cognome"
+                defaultValue=""
               />
               <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
             </Form.Group>
             <Form.Group as={Col} md="6" controlId="validationCustom02">
-              <Form.Label className='mt-3 fs-4'>Last name</Form.Label>
+              <Form.Label className='mt-3 fs-4'>Email</Form.Label>
               <Form.Control
                 required
                 type="text"
-                placeholder="Last name"
-                defaultValue="Otto"
+                placeholder="Email"
+                defaultValue=""
               />
               <Form.Control.Feedback>Sembra corretto!</Form.Control.Feedback>
             </Form.Group>
